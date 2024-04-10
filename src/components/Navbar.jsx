@@ -6,7 +6,7 @@ const Navbar = () => {
              */}
              <p>SPU LOGO</p>
           </div>
-          <p className="text-xl font-bold">SPU quickE</p>
+          <p className="text-xl font-bold">AI LAB | SPU</p>
           <div className="logo">
             {/* <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/OpenAI_Logo.svg" alt="OpenAI" /> */}
             <p>SPCE LOGO</p>
