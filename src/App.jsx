@@ -281,7 +281,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="text-center">
+      <div className="mx-3 text-center">
         <button className="my-5 text-xl sm:text-2xl md:text-3xl">
           <a href="vscode://">
             Click here to start creating your own AI
