@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 const Card = ({ name, desc, image, url }) => {
     return (
-      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-5
+      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-[#d1d1d1] dark:border-gray-700 m-5
                       w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5
                       h-auto">
         <div className="flex justify-center items-center overflow-hidden">
@@ -15,7 +15,7 @@ const Card = ({ name, desc, image, url }) => {
         </div>
         <div className="p-5">
           <a href={url}>
-            <h5 className="mb-2 text-xl sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-xl sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-black">
               {name}
             </h5>
           </a>
